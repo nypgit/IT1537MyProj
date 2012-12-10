@@ -3,8 +3,8 @@ package staywell.entities;
 public class Customer {
 	private String customerId; 
 	private String customerName; 
-	private String customerTel;
-	
+	private String customerTelephone;
+
 	public String getCustomerId() {
 		return customerId;
 	}
@@ -18,10 +18,10 @@ public class Customer {
 		this.customerName = customerName;
 	}
 	public String getCustomerTel() {
-		return customerTel;
+		return customerTelephone;
 	}
 	public void setCustomerTel(String customerTel) {
-		this.customerTel = customerTel;
+		this.customerTelephone = customerTel;
 	}
 	
 }
