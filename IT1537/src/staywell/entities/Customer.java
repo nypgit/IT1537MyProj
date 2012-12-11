@@ -1,6 +1,7 @@
 package staywell.entities;
 
 public class Customer {
+	private String customerAddress;
 	private String customerId; 
 	private String customerName; 
 	private String customerTelephone;
