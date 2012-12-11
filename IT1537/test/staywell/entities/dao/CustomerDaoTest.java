@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import staywell.entities.Customer;
-
+// this is a change
 public class CustomerDaoTest {
 
 	@Test
